@@ -5,10 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Duševní Pohoda</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5fff5;
+            color: #2c3e50;
+        }
+        header {
+            background-color: #ffcc66;
+            color: #2e7d32;
+            padding: 1em;
+            text-align: center;
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+        .container {
+            padding: 2em;
+        }
+        .search-box {
+            text-align: center;
+            margin-bottom: 2em;
+        }
+        input[type="text"] {
+            width: 60%;
+            padding: 0.6em;
+            font-size: 1em;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        section {
+            margin-bottom: 3em;
+        }
+        h2 {
+            color: #388e3c;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li a {
+            text-decoration: none;
+            color: #2e7d32;
+            font-weight: bold;
+        }
+        li a:hover {
+            color: #ff6600;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Vítejte na stránce Duševní Pohody</h1>
-    </header>
+    <header>🌿 Duševní pohoda</header>
+    <div class="container">
+        <div class="search-box">
+            <input type="text" placeholder="Vyhledej klíčová slova...">
+        </div>
+
+        <section>
+            <h2>Fitness & Pohyb</h2>
+            <ul>
+                <li><a href="#">Cvičení s kettlebellem</a></li>
+                <li><a href="#">Jízda na kole</a></li>
+                <li><a href="#">Turistika s trekingovými holemi</a></li>
+                <li><a href="#">Protažení po ránu</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Klid mysli</h2>
+            <ul>
+                <li><a href="#">Dechová cvičení pro klid</a></li>
+                <li><a href="#">Meditace a mindfulness</a></li>
+                <li><a href="#">Tipy na večerní relax</a></li>
+                <li><a href="#">Digitální detox</a></li>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>
+
